@@ -1,0 +1,22 @@
+.list-item{
+    background-color: rgb(38, 85, 124);
+    color: white;
+    padding-left: 50px;
+}
+
+.button{
+    float: right;
+    padding:  1px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    font-weight: bold;  
+}
+
+.button:hover{
+    background-color: green;
+}
+
+.button:active{
+    opacity: 0.8;
+}

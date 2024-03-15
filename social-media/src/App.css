@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    width: 100%;
+}
+
+.sidebar{
+    width: 280px;
+    position: fixed;
+    z-index: 2;
+    width: 20%;
+}
+
+.sidebar a:visited{
+    color: white;
+}
+
+.scrolling-part{
+    position: absolute;
+    right: 0;
+    width: 80%;
+}
+
+#form{
+    width: 80%;
+    margin: 100px auto;
+    border: 2px solid black;
+    padding: 27px 50px;
+    background: #ddddca;
+    border-radius: 10px;
+}
+
+.card{
+    width: 18rem;
+    margin: 100px 55px;
+}
+
+.pointer{
+    cursor: pointer;
+}

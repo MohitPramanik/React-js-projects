@@ -1,0 +1,19 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.board-row{
+    display: flex;
+}
+
+.square{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
