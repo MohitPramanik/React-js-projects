@@ -47,3 +47,11 @@ html, body{
 .pointer{
     cursor: pointer;
 }
+
+.alert{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+}

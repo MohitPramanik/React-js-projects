@@ -2,14 +2,18 @@ import React, {useState, useEffect} from 'react'
 
 function ShowTime() {
 
-    const [time, setTime] = useState(new Date());
+  const [time, setTime] = useState(new Date());
+  
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setTime(new Date())
+    }, 1000)
 
-   useEffect(() => {
-    const interval = setInterval(() => {
-        setTime(new Date());
-    }, 1000);
-   })
-    
+    return () => {
+      clearInterval(intervalId)
+    }
+  }, [])
+  
 
   return (
     <>
